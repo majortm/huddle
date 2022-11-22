@@ -1,0 +1,27 @@
+*{
+    max-width: 100%;
+    box-sizing: border-box;
+}
+.container{
+display:flex;
+flex-direction:column ;
+justify-content:space-evenly;
+border: 2px solid blue;
+padding:10px;
+border-radius: 5px;
+align-items: center;
+
+
+}
+.container .link{
+    margin-bottom: 5px;
+}
+/* desktop view */
+@media screen and (min-width:768px) {
+
+
+    .container{
+    flex-direction: row;
+    }
+    
+}
